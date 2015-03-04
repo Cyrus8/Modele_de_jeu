@@ -47,6 +47,16 @@ public class GestionSon extends FenetreAbstraite implements ActionListener{
 		return "../ressources/sons/accueilSon.wav";
 	}
 	
+	// renvoie le fichier wave contenant le message d'accueil du test
+	protected  String wavAccueil1() {
+		return "../ressources/sons/accueilSon1.wav";
+	}
+	
+	// renvoie le fichier wave contenant le poème
+	protected  String wavPoeme() {
+		return "../ressources/sons/poeme.wav";
+	}
+	
 	// renvoie le fichier wave contenant la rÃ¨gle du jeu
 	protected  String wavRegleJeu() {
 		return "../ressources/sons/aideF1.wav";

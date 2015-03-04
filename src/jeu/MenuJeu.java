@@ -38,7 +38,7 @@ public class MenuJeu extends MenuAbstrait {
 		case 2 : new GestionSon("Gestion du son");break;
 		case 3 : new FichierScore("Ecriture dans un fichier");break;
 		case 4 : new GestionImage("Exemple d'image");break;
-		case 5 : new FenetreTest("Test d'une fenêtre");break;
+		case 5 : new FenetreTest("Fenêtre poème");break;
 		case 6 : System.exit(0);
 		default: System.err.println("action non définie");
 		}
